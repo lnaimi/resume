@@ -11,7 +11,6 @@
     <style>
    body {
         background-color: #f8f9fa;
-         font-family: 'Times New Roman'; 
     }
     .container {
         width: 100%; /* Set the width to 50% */
@@ -58,60 +57,95 @@
                     </p>
                 </div>
                 
-                <div class="section" style="background-color: #e9ecef;">
-                    <h4><i class="bi bi-person"></i> PRESENTATION</h4>
+                <div class="accordion" id="accordionIntroduction">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingIntroduction">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIntroduction" aria-expanded="true" aria-controls="collapseIntroduction">
+                                <i class="bi bi-person"></i> PRESENTATION
+                            </button>
+                        </h2>
+                        <div id="collapseIntroduction" class="accordion-collapse collapse show" aria-labelledby="headingIntroduction" data-bs-parent="#accordionIntroduction">
+                            <div class="accordion-body">
+                                <div class="section" style="background-color: #f8d7da;">
                     <p>
                         Motivated PhD student specializing in software engineering, with a deep understanding of various programming languages and systems. Experienced in teaching and tutorials, ensuring effective knowledge acquisition and assessment based on diverse evaluation criteria. Skilled in both academic and practical aspects of computer science education.
                     </p>
+                             </div>
+                        </div>
+                    </div>
                 </div>
-                
 
-            
-<div class="section" style="background-color: #f8d7da;">
-    <h4><i class="bi bi-building"></i> PROFESSIONAL EXPERIENCE</h4>
+            </div>
+                                  <!-- Professional Experience Section -->
+        <div class="accordion" id="accordionExperience">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingExperience">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExperience" aria-expanded="false" aria-controls="collapseExperience">
+                        <i class="bi bi-building"></i> PROFESSIONAL EXPERIENCE
+                    </button>
+                </h2>
+                <div id="collapseExperience" class="accordion-collapse collapse" aria-labelledby="headingExperience" data-bs-parent="#accordionExperience">
+                    <div class="accordion-body">
+                        <div class="section" style="background-color: #e9ecef;">
 
-    <h5><i class="bi bi-list-ul"></i> 2012 - Present: Second Grade Computer Science Teacher</h5>
-    <p><i class="bi bi-building"></i> MEN (Ministry of Education and National Formation)</p>
-    <ul>
-        <li>Instruct middle school students in computer science and new technologies.</li>
-        <li>Design and administer tests to assess students' progress and proficiency.</li>
-        <li>Manage computer maintenance and system updates.</li>
-        <li>Facilitate equitable computer equipment usage to maximize accessibility.</li>
-    </ul>
+                    <h5><i class="bi bi-list-ul"></i> 2012 - Present: Second Grade Computer Science Teacher</h5>
+                    <p><i class="bi bi-building"></i> MEN (Ministry of Education and National Formation)</p>
+                    <ul>
+                        <li>Instruct middle school students in computer science and new technologies.</li>
+                        <li>Design and administer tests to assess students' progress and proficiency.</li>
+                        <li>Manage computer maintenance and system updates.</li>
+                        <li>Facilitate equitable computer equipment usage to maximize accessibility.</li>
+                    </ul>
 
- 
-    <h5><i class="bi bi-list-ul"></i> 2022: Temporary Teacher, Department of Computer Science</h5>
-    <p><i class="bi bi-building"></i> FST Errachidia (Faculty of Sciences and Techniques). Conducted tutorials for S3 MIP students.</p>
+                    <h5><i class="bi bi-list-ul"></i> 2022: Temporary Teacher, Department of Computer Science</h5>
+                    <p><i class="bi bi-building"></i> FST Errachidia (Faculty of Sciences and Techniques). Conducted tutorials for S3 MIP students.</p>
 
-    <h5><i class="bi bi-list-ul"></i> 2022 - Present: Computer Science Trainer</h5>
-    <p><i class="bi bi-building"></i> ÉCOLE SPÉCIALE D’INFORMATIQUE ET D’ANALYSE DES SYSTÈMES, Errachidia, Morocco</p>
-    <ul>
-    <li>Module taught: Advanced Web Programming</li>
-    <li>Guided second-year students in computer development for their end-of-studies projects.</li>
-    </ul>
-    <h5><i class="bi bi-list-ul"></i> 2019–2020 FST, Master ILSI Final Project</h5>
-    <p><i class="bi bi-building"></i> Errachidia. Towards a Software Factory for Web Applications.</p>
-    
-    <h5><i class="bi bi-list-ul"></i> 2016–2017 FST, LST Software Engineering Final Project</h5>
-    <p><i class="bi bi-building"></i> Errachidia. Management of a Medical Clinic: Mobile and Web Application.</p>
-    
-    <h5><i class="bi bi-list-ul"></i> April 2010 Deconait, Web Designer Internship</h5>
-    <p><i class="bi bi-building"></i> Salé. Dynamic website, advertising posters.</p>
-    
-    <h5><i class="bi bi-list-ul"></i> 2010–2011 BTS, Final Project</h5>
-    <p><i class="bi bi-building"></i> Errachidia. Orientation Forum, Website.</p>
+                    <h5><i class="bi bi-list-ul"></i> 2022 - Present: Computer Science Trainer</h5>
+                    <p><i class="bi bi-building"></i> ÉCOLE SPÉCIALE D’INFORMATIQUE ET D’ANALYSE DES SYSTÈMES, Errachidia, Morocco</p>
+                    <ul>
+                    <li>Module taught: Advanced Web Programming</li>
+                    <li>Guided second-year students in computer development for their end-of-studies projects.</li>
+                    </ul>
+                    <h5><i class="bi bi-list-ul"></i> 2019–2020 FST, Master ILSI Final Project</h5>
+                    <p><i class="bi bi-building"></i> Errachidia. Towards a Software Factory for Web Applications.</p>
+                    
+                    <h5><i class="bi bi-list-ul"></i> 2016–2017 FST, LST Software Engineering Final Project</h5>
+                    <p><i class="bi bi-building"></i> Errachidia. Management of a Medical Clinic: Mobile and Web Application.</p>
+                    
+                    <h5><i class="bi bi-list-ul"></i> April 2010 Deconait, Web Designer Internship</h5>
+                    <p><i class="bi bi-building"></i> Salé. Dynamic website, advertising posters.</p>
+                    
+                    <h5><i class="bi bi-list-ul"></i> 2010–2011 BTS, Final Project</h5>
+                    <p><i class="bi bi-building"></i> Errachidia. Orientation Forum, Website.</p>
 
-       <h5><i class="bi bi-list-ul"></i> Internship: Klic 2023 program</h5>
-    <p> Invited by the Jeollanamdo Education Office in South Korea to promote digital education and online learning globalization for Moroccan teachers. Duration: 30/04/2023 to 07/05/2023. Location: Jeollanamdo Education Office, South Korea.</p>
-    
-    
-    <!-- New Experience -->
-</div>
+                       <h5><i class="bi bi-list-ul"></i> Internship: Klic 2023 program</h5>
+                    <p> Invited by the Jeollanamdo Education Office in South Korea to promote digital education and online learning globalization for Moroccan teachers. Duration: 30/04/2023 to 07/05/2023. Location: Jeollanamdo Education Office, South Korea.</p>
+                    
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
 
-            
+
+
+
+
+
+
+
+      <div class="accordion" id="accordionEDUCATION">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEDUCATION">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEDUCATION" aria-expanded="false" aria-controls="collapseEDUCATION">
+                        <i class="bi bi-journal-bookmark"></i> EDUCATION
+                    </button>
+                </h2>
+                <div id="collapseEDUCATION" class="accordion-collapse collapse" aria-labelledby="headingEDUCATION" data-bs-parent="#accordionEDUCATION">
+                    <div class="accordion-body">
                  <div class="section" style="background-color: #bee5eb;">
-                    <h4><i class="bi bi-journal-bookmark"></i> EDUCATION</h4>
                     <h5>PhD Student in Computer Science | 2020 - Present</h5>
                     <p>Research Team GL-ISI, FST Errachidia (Faculty of Sciences and Techniques)</p>
                     <p>Pursuing doctoral studies with a focus on computer science research.</p>
@@ -127,12 +161,31 @@
                     <h5>Advanced Technician Certificate | 2009 - 2011</h5>
                     <p>Certificate of Higher Technician in Computer Science and New Information and Communication Technologies (INTIC), Technical High School of Errachidia</p>
                     <p>Earned a certificate with distinction in computer science and new ICT.</p>
-                </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
 
 
-<div class="section" style="background-color: #d4edda;">
-    <h4><i class="bi bi-check-circle"></i> SKILLS</h4>
+
+
+
+
+
+
+
+      <div class="accordion" id="accordionSKILLS">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSKILLS">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSKILLS" aria-expanded="false" aria-controls="collapseSKILLS">
+                        <i class="bi bi-globe"></i> SKILLS
+                    </button>
+                </h2>
+                <div id="collapseSKILLS" class="accordion-collapse collapse" aria-labelledby="headingSKILLS" data-bs-parent="#accordionSKILLS">
+                    <div class="accordion-body">
+        <div class="section" style="background-color: #d4edda;">
     <div class="d-flex">
         <div class="me-5">
             <h5><i class="bi bi-globe"></i> Languages</h5>
@@ -203,13 +256,29 @@
         </div>
     </div>
 </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
 
 
 
+
+
+
+
+      <div class="accordion" id="accordionSCIENTIFIC">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSCIENTIFIC">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSCIENTIFIC" aria-expanded="false" aria-controls="collapseSCIENTIFIC">
+                        <i class="bi bi-journal-text"></i> SCIENTIFIC PUBLICATIONS AND COMMUNICATIONS
+                    </button>
+                </h2>
+                <div id="collapseSCIENTIFIC" class="accordion-collapse collapse" aria-labelledby="headingSCIENTIFIC" data-bs-parent="#accordionSCIENTIFIC">
+                    <div class="accordion-body">
 
 
                 <div class="section" style="background-color: #f3e8c9;">
-    <h4><i class="bi bi-journal-text"></i> SCIENTIFIC PUBLICATIONS AND COMMUNICATIONS</h4>
     <ul>
         <li>
             <strong>Toward a Software Factory for Web Applications</strong><br>
@@ -232,12 +301,32 @@
         </li>
     </ul>
 </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
 
 
 
+
+
+
+
+
+
+
+
+     <div class="accordion" id="accordionCERTIFICATES">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingCERTIFICATES">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCERTIFICATES" aria-expanded="false" aria-controls="collapseCERTIFICATES">
+                        <i class="bi bi-award"></i> CERTIFICATES
+                    </button>
+                </h2>
+                <div id="collapseCERTIFICATES" class="accordion-collapse collapse" aria-labelledby="headingCERTIFICATES" data-bs-parent="#accordionCERTIFICATES">
+                    <div class="accordion-body">
 
                 <div class="section" style="background-color: #d0e6f0;">
-    <h4><i class="bi bi-award"></i> CERTIFICATES</h4>
     <ul>
         <li><strong>Research Methodology:</strong></li>
         <ul>
@@ -304,31 +393,99 @@
         </ul>
     </ul>
 </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-<div class="section research-project-section" style="background-color: #f0f8ff;">
-    <h4><i class="bi bi-book"></i> RESEARCH PROJECT</h4>
-    <p><strong>Project Title:</strong> A Software Factory for Developing Intelligent Tourism Mobile Applications</p>
-    <p><strong>Research Structure:</strong> Software Engineering and Information Systems Engineering Group (GLISI) and Research Laboratory in Software Engineering and Artificial Intelligence (GLIA)</p>
-    <p><strong>Institutions:</strong> Faculty of Sciences and Techniques – Errachidia, Moulay Ismail University – Meknes, and Université du Québec à Rimouski</p>
-</div>
 
-<div class="section" style="background-color: #e2e3e5;">
-    <h4><i class="bi bi-people"></i> ASSOCIATION AND EXTRACURRICULAR ACTIVITIES</h4>
-    <h5><i class="bi bi-list-ul"></i> Participation in Inwi Challenge Finals</h5>
-    <p>Developed educational games using Minecraft Education software.</p>
-    
-    <h5><i class="bi bi-list-ul"></i> Executive Member, National Association of Computer Science Teachers</h5>
-    <p>Contributed to the association's activities and initiatives.</p>
-    
-    <h5><i class="bi bi-list-ul"></i> Participated in Organizing Scientific Events</h5>
-    <p>Collaborated in coordinating two events at FST Errachidia: Doctoral Days 2021 and ICSAM'23 International Day 2023.</p>
-</div>
 
+
+
+
+
+
+
+
+
+
+
+
+     <div class="accordion" id="accordionPROJECT">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingPROJECT">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePROJECT" aria-expanded="false" aria-controls="collapsePROJECT">
+                        <i class="bi bi-book"></i> RESEARCH PROJECT
+                    </button>
+                </h2>
+                <div id="collapsePROJECT" class="accordion-collapse collapse" aria-labelledby="headingPROJECT" data-bs-parent="#accordionPROJECT">
+                    <div class="accordion-body">
+                <div class="section research-project-section" style="background-color: #f0f8ff;">
+                    <p><strong>Project Title:</strong> A Software Factory for Developing Intelligent Tourism Mobile Applications</p>
+                    <p><strong>Research Structure:</strong> Software Engineering and Information Systems Engineering Group (GLISI) and Research Laboratory in Software Engineering and Artificial Intelligence (GLIA)</p>
+                    <p><strong>Institutions:</strong> Faculty of Sciences and Techniques – Errachidia, Moulay Ismail University – Meknes, and Université du Québec à Rimouski</p>
+                </div>
+                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+  <div class="accordion" id="accordionASSOCIATION">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingASSOCIATION">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseASSOCIATION" aria-expanded="false" aria-controls="collapseASSOCIATION">
+                        <i class="bi bi-people"></i> ASSOCIATION AND EXTRACURRICULAR ACTIVITIES
+                    </button>
+                </h2>
+                <div id="collapseASSOCIATION" class="accordion-collapse collapse" aria-labelledby="headingASSOCIATION" data-bs-parent="#accordionASSOCIATION">
+                    <div class="accordion-body">
+            <div class="section" style="background-color: #e2e3e5;">
+                <h5><i class="bi bi-list-ul"></i> Participation in Inwi Challenge Finals</h5>
+                <p>Developed educational games using Minecraft Education software.</p>
+                
+                <h5><i class="bi bi-list-ul"></i> Executive Member, National Association of Computer Science Teachers</h5>
+                <p>Contributed to the association's activities and initiatives.</p>
+                
+                <h5><i class="bi bi-list-ul"></i> Participated in Organizing Scientific Events</h5>
+                <p>Collaborated in coordinating two events at FST Errachidia: Doctoral Days 2021 and ICSAM'23 International Day 2023.</p>
+            </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+  <div class="accordion" id="accordionHONORS">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingHONORS">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHONORS" aria-expanded="false" aria-controls="collapseHONORS">
+                        <i class="bi bi-award"></i> HONORS AND AWARDS
+                    </button>
+                </h2>
+                <div id="collapseHONORS" class="accordion-collapse collapse" aria-labelledby="headingHONORS" data-bs-parent="#accordionHONORS">
+                    <div class="accordion-body">
     <div class="section" style="background-color: #f3e8c9;">
-    <h4><i class="bi bi-award"></i> HONORS AND AWARDS</h4>
     <p>In recognition of my academic achievements, I proudly hold the distinction of being the top achiever in the Advanced Technician Certificate program. Additionally, I secured the second-highest rank in both my Bachelor's Degree in Computer Science and my Master's Degree in Software Engineering. These accomplishments reflect my dedication to excellence throughout my educational journey.</p>
+</div>        
+   </div>
+        </div>
+    </div>
 </div>
-
 
 
 
